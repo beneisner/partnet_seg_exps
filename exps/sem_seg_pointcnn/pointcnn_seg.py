@@ -2,8 +2,8 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import pointfly as pf
-from pointcnn import PointCNN
+from . import pointfly as pf
+from .pointcnn import PointCNN
 
 
 class Net(PointCNN):

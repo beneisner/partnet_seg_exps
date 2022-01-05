@@ -3,7 +3,7 @@ from __future__ import division
 from __future__ import print_function
 
 import math
-import pointfly as pf
+from . import pointfly as pf
 import tensorflow as tf
 
 
